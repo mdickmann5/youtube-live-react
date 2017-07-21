@@ -134,8 +134,6 @@ var YoutubeLive = (function (_Component) {
       var containerStyle = _props2.containerStyle;
       var itemContainerStyle = _props2.itemContainerStyle;
 
-      console.log(this.props);
-
       return _react2['default'].createElement(
         'div',
         { style: containerStyle },

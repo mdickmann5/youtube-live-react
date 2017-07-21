@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var initGulpTasks = require('react-component-gulp-tasks');
+var ghPages = require('gulp-gh-pages');
 
 /**
  * Tasks are added by the react-component-gulp-tasks package
@@ -38,5 +39,10 @@ var taskConfig = {
 	}
 
 };
+
+gulp.task('deploy', () => {
+  return gulp.src('example/dist/**/*')
+    .pipe(ghPages());
+});
 
 initGulpTasks(gulp, taskConfig);

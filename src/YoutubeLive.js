@@ -78,7 +78,6 @@ class YoutubeLive extends Component {
   render(){
 
       const { iframeWidth, iframeHeight, containerStyle, itemContainerStyle } = this.props;
-      console.log(this.props);
 
       return(
         <div style={containerStyle}>
