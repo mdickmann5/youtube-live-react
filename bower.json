@@ -1,0 +1,29 @@
+{
+  "name": "youtube-live-react",
+  "version": "0.0.0",
+  "description": "Youtube Live React",
+  "main": "dist/youtube-live-react.min.js",
+  "homepage": "https://github.com/agustinaliagac/youtube-live-react",
+  "authors": [
+    "Agustín Aliaga"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
