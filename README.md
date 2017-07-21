@@ -41,12 +41,12 @@ var App = React.createClass({
 	render () {
 		return (
 			<div>
-				<YoutubeLive
-					iframeWidth={400}
-					iframeHeight={300}
-					maxResults={50}
-          youtubeChannelId='{YOUTUBE_CHANNEL_ID}'
-          googleApiKey='{YOUR_GOOGLE_API_KEY}'/>
+			<YoutubeLive
+				iframeWidth={400}
+				iframeHeight={300}
+				maxResults={50}
+				youtubeChannelId='{YOUTUBE_CHANNEL_ID}'
+				googleApiKey='{YOUR_GOOGLE_API_KEY}'/>
 			</div>
 		);
 	}
