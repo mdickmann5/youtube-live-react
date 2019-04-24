@@ -86,7 +86,7 @@ class YoutubeLive extends Component {
               return <div style={itemContainerStyle}>
                           <iframe width={ iframeWidth ? iframeWidth : DEFAULT_IFRAME_WIDTH }
                              height={ iframeHeight ? iframeHeight : DEFAULT_IFRAME_HEIGHT }
-                             src={"https://www.youtube.com/embed/" + videoId }
+                             src={"https://www.youtube.com/embed/" + videoId + "?autoplay=1"}
                              frameBorder="0"
                              allowFullScreen>
                            </iframe>
